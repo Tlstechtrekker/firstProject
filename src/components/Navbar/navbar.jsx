@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+//example of how granular you can get with styled components; don't need to get this detailed
+
 const NavbarStyled = styled.nav`
     background: white;
     color: red;
@@ -23,6 +25,11 @@ export default function Navbar() {
             <MenuItems>
                 <MenuItem>Home</MenuItem>
                 <MenuItem>Visit</MenuItem>
+                <MenuItem>Events</MenuItem>
+                <MenuItem>Education</MenuItem>
+                <MenuItem>Support</MenuItem>
+                <MenuItem>Wallace Desert Garden</MenuItem>
+                <MenuItem>More</MenuItem>
             </MenuItems>
         </NavbarStyled>
     )
