@@ -4,19 +4,19 @@ import styled from 'styled-components';
 //example of how granular you can get with styled components; don't need to get this detailed
 
 const NavbarStyled = styled.nav`
-    background: white;
-    color: red;
+    background: yellow;
+    color: pink;
+    /* width: 60%; */
 `
 
 const MenuItems = styled.ul`
-    background: yellow;
     display: flex;
     flex-direction: row;
+    list-style-type: none;
 `
 
 const MenuItem = styled.li`
-    color: pink;
-    margin-right: 10px;
+    margin-right: 25px;
 `
 
 export default function Navbar() {
@@ -33,5 +33,4 @@ export default function Navbar() {
             </MenuItems>
         </NavbarStyled>
     )
-
 }
