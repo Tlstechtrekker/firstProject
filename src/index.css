@@ -5,7 +5,7 @@
 }
 
 body {
-  background: red;
+  background: #374000;
   color: white;
   /* set font size from 16px default down to 10px as 10/16 =.625 */
   font-size: 62.5%; 
