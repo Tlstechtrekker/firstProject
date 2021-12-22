@@ -1,28 +1,31 @@
-import Navbar from './components/Navbar/navbar'
+import Headerwrapper from './components/Headerwrapper/headerwrapper';
+import Navbar from './components/Navbar/navbar';
+/* import Logo from './components/Logo/logo' */
+import Socialmedia from './components/Socialmedia/Socialmedia';
+
+/* import Footernav from './components/Footernav/Footernav'; */
 
 function App() {
   return (
     <div className="main">
       <div className="wrapper">
+
         <header>
-          <div className="logo"></div>
-          <Navbar />
-          <div className="socialmedia">
-            /* icons */
-          </div>
+          <Headerwrapper>
+            {/* <Logo /> */}
+            <Navbar />
+            <Socialmedia />
+          </Headerwrapper>
         </header>
+
         <div className="maincontent"></div>
+
         <footer>
-          //3 columns - contact-menu-form
+          //3 cols - contact-menu-form
+          <div className="contact"></div>
+          <div className="menuwrapper"></div>
+          <div className="form"></div>
         </footer>
-      {/* nav */}
-
-      {/* hero section */}
-
-      {/* image section */}
-
-      {/* footer */}
-  
 
       </div>
     </div>
